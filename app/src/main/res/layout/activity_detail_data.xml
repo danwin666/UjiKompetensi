@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailData">
+
+    <EditText
+        android:id="@+id/isianNamaDetailData"
+        android:layout_width="336dp"
+        android:layout_height="49dp"
+        android:ems="16"
+        android:inputType="text"
+        android:minHeight="48dp"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="319dp" />
+
+    <TextView
+        android:id="@+id/NamaDetailData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="290dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="78dp"
+        android:layout_height="67dp"
+        android:src="@drawable/mahasiswa_icon"
+        app:layout_marginBaseline="50dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="107dp"
+        android:id="@+id/iconDetailData"/>
+
+    <TextView
+        android:id="@+id/NumberDetailData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomor"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="206dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageNumberDetailData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#673AB7"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/baseline_edit_24"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="204dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageNamaDetailData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/baseline_person_add_24"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="285dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/isianNumberDetailData"
+        android:layout_width="336dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="233dp" />
+
+    <EditText
+        android:id="@+id/isianTanggalLahirDetailData"
+        android:layout_width="336dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="date"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="387dp" />
+
+    <TextView
+        android:id="@+id/TanggalLahirDetailData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Lahir"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="367dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageTanggalLahirDetailData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/baseline_calendar_month_24"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="367dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/isianJenisKelaminDetailData"
+        android:layout_width="336dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="text"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="469dp" />
+
+    <TextView
+        android:id="@+id/JenisKelaminDetailData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="445dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageJenisKelaminDetailData"
+        android:layout_width="21dp"
+        android:layout_height="24dp"
+        app:srcCompat="@drawable/jenis_kelamin"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="445dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/AlamatDetailData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="520dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageAlamatDetailData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/baseline_location_pin_24"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="520dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/isianAlamatDetailData"
+        android:layout_width="336dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="text"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="545dp" />
+
+    <Button
+        android:id="@+id/btnSimpanDetailData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#139F08"
+        android:text="Simpan"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="603dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
